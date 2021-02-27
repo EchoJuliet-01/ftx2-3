@@ -1,8 +1,8 @@
-# FTX21-1 Utilities
+# FTX2-3 Utilities
 
 # Summary
 
-There are two applications included: config_check.py and info.py. The first application checks your JS8Call configuration for compliance with the FTX21-1 exercise recommendations, and alerts you to anything you have set contrary to those guidelines. It makes no changes to your system, it merely informs you as to your status. The second application assists you in setting your INFO field in JS8Call to a value compliant with the exercise requirements. The second application detects whether or not your JS8Call API is configured, and if it is, asks you whether or not you'd like the utility to set your INFO field on your behalf. If you decline, or if your API is not enabled, the utility simply prints your INFO information that you may copy/paste into JS8Call yourself. Note that there is a bug in JS8Call where it will not display the updated INFO field in the GUI. It will work correctly for sending your INFO data, but the current INFO data will not be reflected on your screen. This is a known bug in JS8Call, and a bug report has been filed.
+There are two applications included: config_check.py and info.py. The first application checks your JS8Call configuration for compliance with the FTX2-3 exercise recommendations, and alerts you to anything you have set contrary to those guidelines. It makes no changes to your system, it merely informs you as to your status. The second application assists you in setting your INFO field in JS8Call to a value compliant with the exercise requirements. The second application detects whether or not your JS8Call API is configured, and if it is, asks you whether or not you'd like the utility to set your INFO field on your behalf. If you decline, or if your API is not enabled, the utility simply prints your INFO information that you may copy/paste into JS8Call yourself. Note that there is a bug in JS8Call where it will not display the updated INFO field in the GUI. It will work correctly for sending your INFO data, but the current INFO data will not be reflected on your screen. This is a known bug in JS8Call, and a bug report has been filed.
 
 ## Compatibility
 
